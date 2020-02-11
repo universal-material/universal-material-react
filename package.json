@@ -1,10 +1,14 @@
 {
   "name": "@universal-material/react",
-  "version": "1.0.0",
+  "version": "0.1.1",
   "description": "",
-  "author": "",
+  "author": "https://github.com/universal-material/universal-material-react/graphs/contributors",
   "license": "MIT",
-  "repository": "/@universal-material/react",
+  "homepage": "https://github.com/universal-material/universal-material-react#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/universal-material/universal-material-react.git"
+  },
   "main": "dist/index.js",
   "module": "dist/index.es.js",
   "jsnext:main": "dist/index.es.js",
@@ -51,6 +55,7 @@
     "dist"
   ],
   "dependencies": {
-    "@universal-material/core": "^0.93.17"
+    "@universal-material/core": "^0.93.17",
+    "classnames": "^2.2.6"
   }
 }

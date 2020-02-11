@@ -4,8 +4,10 @@ import PropTypes from 'prop-types'
 import styles from './styles.css'
 
 export Button from './components/Button';
+export Ripple from './components/Ripple';
+export TextField from './components/TextField';
 
-export default class ExampleComponent extends Component {
+/*export default class ExampleComponent extends Component {
   static propTypes = {
     text: PropTypes.string
   }
@@ -22,3 +24,4 @@ export default class ExampleComponent extends Component {
     )
   }
 }
+*/
